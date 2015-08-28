@@ -1,13 +1,13 @@
-" Theme: 24adaptive
+" Theme: adaptive24
 " Author: Greeschenko Alexey <greeschenko@gmail.com>
 " License: MIT
-" Origin: https://github.com/greeschenko/24adaptive.git
+" Origin: https://github.com/greeschenko/adaptive24.git
 "
 " Modified from the theme 'papercolor-theme'
 
 hi clear
 syntax reset
-let g:colors_name = "24adaptive"
+let g:colors_name = "adaptive24"
 
 fun! s:Load_Settings_Override(custom)
   if has_key(a:custom, 'cursorline')
@@ -395,7 +395,6 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
   call <SID>X("Normal", s:foreground, s:background, "")
 
   " Switching between dark & light variant through `set background`
-  " https://github.com/NLKNguyen/papercolor-theme/pull/20
   if s:is_dark
     set background=dark
   else
