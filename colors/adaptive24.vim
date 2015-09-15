@@ -46,7 +46,7 @@ if s:is_dark " DARK VARIANT
   let s:window       = "#3a3a3a"
   let s:divider      = "#5f8787"
   let s:linenumber   = "#606060"
-  let s:comment      = "#5f875f"
+  let s:comment      = "#4D664D"
   let s:todo         = "#ff8700"
   let s:cursorline   = "#303030"
   let s:cursorcolumn = "#303030"
