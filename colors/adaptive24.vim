@@ -28,18 +28,18 @@ if s:is_dark " DARK VARIANT
   "          and they don't represent the HEX code that they store in this block.
   let s:red     = "#5faf5f" "Include/Exception
   let s:green   = "#dfaf00" "Boolean/Special
-  let s:blue    = "#00afaf" "Keyword
+  let s:blue    = "#FFB0AA" "Keyword
 
-  let s:pink    = "#afdf00" "Type
-  let s:olive   = "#dfaf5f" "String
+  let s:pink    = "#FF685D" "Type
+  let s:olive   = "#7F5855" "String
   let s:navy    = "#df875f" "StorageClass
 
   let s:orange  = "#ff5faf" "Number
-  let s:purple  = "#af87af" "Repeat/Conditional
-  let s:aqua    = "#5fafdf" "Operator/Delimiter
+  let s:purple  = "#FFB0AA" "Repeat/Conditional
+  let s:aqua    = "#FFB0AA" "Operator/Delimiter
 
   " Basics:
-  let s:foreground   = "#d0d0d0"
+  let s:foreground   = "#CC534B"
   let s:background   = "#262626"
   let s:selection    = "#3a3a3a"
   let s:nontext      = "#444444"
