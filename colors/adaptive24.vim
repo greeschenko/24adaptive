@@ -26,20 +26,20 @@ let s:is_dark=(&background == 'dark')
 if s:is_dark " DARK VARIANT
   " Palette: These color names are corresponding to the original light version,
   "          and they don't represent the HEX code that they store in this block.
-  let s:red     = "#5faf5f" "Include/Exception
-  let s:green   = "#dfaf00" "Boolean/Special
-  let s:blue    = "#FFB0AA" "Keyword
+  let s:red     = "#FFB0AA" "Include/Exception
+  let s:green   = "#FFB0AA" "Boolean/Special
+  let s:blue    = "#998275" "Keyword
 
   let s:pink    = "#FF685D" "Type
   let s:olive   = "#7F5855" "String
-  let s:navy    = "#df875f" "StorageClass
+  let s:navy    = "#FF685D" "StorageClass
 
-  let s:orange  = "#ff5faf" "Number
-  let s:purple  = "#FFB0AA" "Repeat/Conditional
+  let s:orange  = "#FFB0AA" "Number
+  let s:purple  = "#998275" "Repeat/Conditional
   let s:aqua    = "#FFB0AA" "Operator/Delimiter
 
   " Basics:
-  let s:foreground   = "#CC534B"
+  let s:foreground   = "#998275"
   let s:background   = "#262626"
   let s:selection    = "#3a3a3a"
   let s:nontext      = "#444444"
