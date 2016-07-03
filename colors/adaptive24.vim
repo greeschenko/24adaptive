@@ -81,8 +81,8 @@ if s:is_dark " DARK VARIANT
   let s:visual_bg = "#8787af"
 
   " Folded:
-  let s:folded_fg = "#afdf00"
-  let s:folded_bg = "#444444"
+  let s:folded_fg = s:olive
+  let s:folded_bg = s:background
 
   " Diff:
   let s:diffadd_fg    = "#000000"
