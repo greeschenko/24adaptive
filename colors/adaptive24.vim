@@ -31,7 +31,7 @@ if s:is_dark " DARK VARIANT
     let s:active     = "#ffffff"
     let s:different  = "#FF685D"
     let s:attention  = "#df0000"
-    let s:inactive   = "#606060"
+    let s:inactive   = "#6c6c6c"
     let s:selected   = "#870000"
     "ui
     let s:background = "#303030"
@@ -295,6 +295,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("FoldColumn", "", s:background, "")
     call <SID>X("CursorLine", "", s:line, "none")
     call <SID>X("CursorColumn", "", s:line, "none")
+    call <SID>X("ColorColumn", "", s:inactive, "none")
     call <SID>X("PMenu", s:main, s:inactive, "none")
     call <SID>X("PMenuSel", s:main, s:different, "none")
     call <SID>X("SignColumn", "", s:background, "none")
