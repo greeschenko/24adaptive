@@ -1,0 +1,331 @@
+SpecialKey     xxx ctermfg=81 guifg=Cyan
+EndOfBuffer    xxx links to NonText
+TermCursor     xxx cterm=reverse gui=reverse
+TermCursorNC   xxx cleared
+NonText        xxx ctermfg=12 gui=bold guifg=Blue
+Directory      xxx ctermfg=159 guifg=Cyan
+ErrorMsg       xxx ctermfg=15 ctermbg=1 guifg=White guibg=Red
+IncSearch      xxx cterm=reverse gui=reverse
+Search         xxx ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
+MoreMsg        xxx ctermfg=121 gui=bold guifg=SeaGreen
+ModeMsg        xxx cterm=bold gui=bold
+LineNr         xxx ctermfg=11 guifg=Yellow
+CursorLineNr   xxx ctermfg=11 gui=bold guifg=Yellow
+Question       xxx ctermfg=121 gui=bold guifg=Green
+StatusLine     xxx cterm=bold,reverse gui=bold,reverse
+StatusLineNC   xxx cterm=reverse gui=reverse
+VertSplit      xxx cterm=reverse gui=reverse
+Title          xxx ctermfg=225 gui=bold guifg=Magenta
+Visual         xxx ctermbg=242 guibg=DarkGrey
+WarningMsg     xxx ctermfg=224 guifg=Red
+WildMenu       xxx ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
+DiffAdd        xxx ctermbg=4 guibg=DarkBlue
+DiffChange     xxx ctermbg=5 guibg=DarkMagenta
+DiffDelete     xxx ctermfg=12 ctermbg=6 gui=bold guifg=Blue guibg=DarkCyan
+DiffText       xxx cterm=bold ctermbg=9 gui=bold guibg=Red
+SignColumn     xxx ctermfg=14 ctermbg=242 guifg=Cyan guibg=Grey
+Conceal        xxx ctermfg=7 ctermbg=242 guifg=LightGrey guibg=DarkGrey
+SpellBad       xxx ctermbg=9 gui=undercurl guisp=Red
+SpellCap       xxx ctermbg=12 gui=undercurl guisp=Blue
+SpellRare      xxx ctermbg=13 gui=undercurl guisp=Magenta
+SpellLocal     xxx ctermbg=14 gui=undercurl guisp=Cyan
+TabLine        xxx cterm=underline ctermfg=15 ctermbg=242 gui=underline guibg=DarkGrey
+TabLineSel     xxx cterm=bold gui=bold
+TabLineFill    xxx cterm=reverse gui=reverse
+CursorColumn   xxx ctermbg=242 guibg=Grey40
+CursorLine     xxx cterm=underline guibg=Grey40
+ColorColumn    xxx ctermbg=1 guibg=DarkRed
+QuickFixLine   xxx links to Search
+Substitute     xxx links to Search
+MatchParen     xxx ctermbg=6 guibg=DarkCyan
+Constant       xxx ctermfg=13 guifg=#ffa0a0
+Special        xxx ctermfg=224 guifg=Orange
+Identifier     xxx cterm=bold ctermfg=14 guifg=#40ffff
+Statement      xxx ctermfg=11 gui=bold guifg=#ffff60
+PreProc        xxx ctermfg=81 guifg=#ff80ff
+Type           xxx ctermfg=121 gui=bold guifg=#60ff60
+Underlined     xxx cterm=underline ctermfg=81 gui=underline guifg=#80a0ff
+Ignore         xxx ctermfg=0 guifg=bg
+Error          xxx ctermfg=15 ctermbg=9 guifg=White guibg=Red
+Todo           xxx ctermfg=0 ctermbg=11 guifg=Blue guibg=Yellow
+String         xxx links to Constant
+Character      xxx links to Constant
+Number         xxx links to Constant
+Boolean        xxx links to Constant
+Float          xxx links to Number
+Function       xxx links to Identifier
+Conditional    xxx links to Statement
+Repeat         xxx links to Statement
+Label          xxx links to Statement
+Operator       xxx links to Statement
+Keyword        xxx links to Statement
+Exception      xxx links to Statement
+Include        xxx links to PreProc
+Define         xxx links to PreProc
+Macro          xxx links to PreProc
+PreCondit      xxx links to PreProc
+StorageClass   xxx links to Type
+Structure      xxx links to Type
+Typedef        xxx links to Type
+Tag            xxx links to Special
+SpecialChar    xxx links to Special
+Delimiter      xxx links to Special
+SpecialComment xxx links to Special
+Debug          xxx links to Special
+QFError        xxx links to SpellBad
+QFWarning      xxx links to SpellLocal
+QFInfo         xxx links to SpellRare
+LocError       xxx links to SpellBad
+LocWarning     xxx links to SpellLocal
+LocInfo        xxx links to SpellRare
+xdefaultsErrorLine xxx links to Error
+xdefaultsPunct xxx links to Normal
+xdefaultsSpecial xxx links to Statement
+xdefaultsLineEnd xxx links to Special
+xdefaultsLabel xxx links to Type
+xdefaultsValue xxx links to Constant
+xdefaultsTodo  xxx links to Todo
+xdefaultsComment xxx links to Comment
+xdefaultsCommentH xxx links to xdefaultsComment
+xdefaultsCommentError xxx links to Error
+xdefaultsSymbol xxx links to Statement
+xdefaultsPreProc xxx links to PreProc
+xdefaultsCppOut2 xxx links to xdefaultsCppOut
+xdefaultsCppOut xxx links to Comment
+xdefaultsCppSkip xxx links to xdefaultsCppOut
+xdefaultsIncluded xxx links to String
+xdefaultsInclude xxx links to xdefaultsPreProc
+xdefaultsDefine xxx links to Macro
+Normal         xxx cleared
+airline_c_to_airline_x xxx ctermfg=234 ctermbg=234
+airline_x_inactive xxx ctermfg=239 ctermbg=236 guifg=#4e4e4e guibg=#303030
+airline_x_inactive_bold xxx cterm=bold ctermfg=239 ctermbg=236 gui=bold guifg=#4e4e4e guibg=#303030
+airline_x_inactive_red xxx ctermfg=160 ctermbg=236 guifg=#ff0000 guibg=#303030
+airline_y_inactive xxx ctermfg=239 ctermbg=235 guifg=#4e4e4e guibg=#262626
+airline_y_inactive_bold xxx cterm=bold ctermfg=239 ctermbg=235 gui=bold guifg=#4e4e4e guibg=#262626
+airline_y_inactive_red xxx ctermfg=160 ctermbg=235 guifg=#ff0000 guibg=#262626
+airline_z_inactive xxx ctermfg=239 ctermbg=234 guifg=#4e4e4e guibg=#1c1c1c
+airline_z_inactive_bold xxx cterm=bold ctermfg=239 ctermbg=234 gui=bold guifg=#4e4e4e guibg=#1c1c1c
+airline_z_inactive_red xxx ctermfg=160 ctermbg=234 guifg=#ff0000 guibg=#1c1c1c
+airline_a_inactive xxx ctermfg=239 ctermbg=234 guifg=#4e4e4e guibg=#1c1c1c
+airline_a_inactive_bold xxx cterm=bold ctermfg=239 ctermbg=234 gui=bold guifg=#4e4e4e guibg=#1c1c1c
+airline_a_inactive_red xxx ctermfg=160 ctermbg=234 guifg=#ff0000 guibg=#1c1c1c
+airline_b_inactive xxx ctermfg=239 ctermbg=235 guifg=#4e4e4e guibg=#262626
+airline_b_inactive_bold xxx cterm=bold ctermfg=239 ctermbg=235 gui=bold guifg=#4e4e4e guibg=#262626
+airline_b_inactive_red xxx ctermfg=160 ctermbg=235 guifg=#ff0000 guibg=#262626
+airline_c_inactive xxx ctermfg=239 ctermbg=236 guifg=#4e4e4e guibg=#303030
+airline_c_inactive_bold xxx cterm=bold ctermfg=239 ctermbg=236 gui=bold guifg=#4e4e4e guibg=#303030
+airline_c_inactive_red xxx ctermfg=160 ctermbg=236 guifg=#ff0000 guibg=#303030
+airline_warning_inactive xxx ctermfg=232 ctermbg=166 guifg=#000000 guibg=#df5f00
+airline_warning_inactive_bold xxx cterm=bold ctermfg=232 ctermbg=166 gui=bold guifg=#000000 guibg=#df5f00
+airline_warning_inactive_red xxx ctermfg=160 ctermbg=166 guifg=#ff0000 guibg=#df5f00
+airline_c_to_airline_x_inactive xxx ctermfg=236 ctermbg=236
+airline_x      xxx ctermfg=85 ctermbg=234 guifg=#9cffd3 guibg=#202020
+airline_x_bold xxx cterm=bold ctermfg=85 ctermbg=234 gui=bold guifg=#9cffd3 guibg=#202020
+airline_x_red  xxx ctermfg=160 ctermbg=234 guifg=#ff0000 guibg=#202020
+airline_y      xxx ctermfg=255 ctermbg=238 guifg=#ffffff guibg=#444444
+airline_y_bold xxx cterm=bold ctermfg=255 ctermbg=238 gui=bold guifg=#ffffff guibg=#444444
+airline_y_red  xxx ctermfg=160 ctermbg=238 guifg=#ff0000 guibg=#444444
+airline_z      xxx ctermfg=17 ctermbg=190 guifg=#00005f guibg=#dfff00
+airline_z_bold xxx cterm=bold ctermfg=17 ctermbg=190 gui=bold guifg=#00005f guibg=#dfff00
+airline_z_red  xxx ctermfg=160 ctermbg=190 guifg=#ff0000 guibg=#dfff00
+airline_a      xxx ctermfg=17 ctermbg=190 guifg=#00005f guibg=#dfff00
+airline_a_bold xxx cterm=bold ctermfg=17 ctermbg=190 gui=bold guifg=#00005f guibg=#dfff00
+airline_a_red  xxx ctermfg=160 ctermbg=190 guifg=#ff0000 guibg=#dfff00
+airline_b      xxx ctermfg=255 ctermbg=238 guifg=#ffffff guibg=#444444
+airline_b_bold xxx cterm=bold ctermfg=255 ctermbg=238 gui=bold guifg=#ffffff guibg=#444444
+airline_b_red  xxx ctermfg=160 ctermbg=238 guifg=#ff0000 guibg=#444444
+airline_c      xxx ctermfg=85 ctermbg=234 guifg=#9cffd3 guibg=#202020
+airline_c_bold xxx cterm=bold ctermfg=85 ctermbg=234 gui=bold guifg=#9cffd3 guibg=#202020
+airline_c_red  xxx ctermfg=160 ctermbg=234 guifg=#ff0000 guibg=#202020
+airline_warning xxx ctermfg=232 ctermbg=166 guifg=#000000 guibg=#df5f00
+airline_warning_bold xxx cterm=bold ctermfg=232 ctermbg=166 gui=bold guifg=#000000 guibg=#df5f00
+airline_warning_red xxx ctermfg=160 ctermbg=166 guifg=#ff0000 guibg=#df5f00
+airline_tab    xxx ctermfg=255 ctermbg=238 guifg=#ffffff guibg=#444444
+airline_tabsel xxx ctermfg=17 ctermbg=190 guifg=#00005f guibg=#dfff00
+airline_tabtype xxx ctermfg=232 ctermbg=214 guifg=#000000 guibg=#ffaf00
+airline_tabfill xxx ctermfg=85 ctermbg=234 guifg=#9cffd3 guibg=#202020
+airline_tabmod xxx ctermfg=17 ctermbg=45 guifg=#00005f guibg=#00dfff
+airline_tabmod_unsel xxx ctermfg=255 ctermbg=53 guifg=#ffffff guibg=#5f005f
+airline_tabhid xxx ctermfg=85 ctermbg=234 guifg=#9cffd3 guibg=#202020
+airline_c1_inactive xxx ctermfg=239 ctermbg=236 guifg=#4e4e4e guibg=#303030
+airline_c_to_airline_x_bold xxx cterm=bold ctermfg=234 ctermbg=234 gui=bold
+airline_c_to_airline_x_red xxx ctermfg=160 ctermbg=234 guifg=#ff0000
+airline_a_to_airline_b xxx ctermfg=190 ctermbg=238
+airline_b_to_airline_c xxx ctermfg=238 ctermbg=234
+airline_x_to_airline_y xxx ctermfg=238 ctermbg=234
+airline_y_to_airline_z xxx ctermfg=190 ctermbg=238
+airline_z_to_airline_warning xxx ctermfg=166 ctermbg=190
+ExtraWhitespace xxx ctermbg=9 guibg=#FF0000
+airline_tabsel_to_airline_tabfill xxx ctermfg=190 ctermbg=234
+airline_tabfill_to_airline_tabfill xxx ctermfg=234 ctermbg=234
+airline_tabfill_to_airline_tabtype xxx ctermfg=214 ctermbg=234
+airline_c1_to_airline_x xxx ctermfg=234 ctermbg=1
+cv_hue_0       xxx cleared
+cv_hue_1       xxx cleared
+cv_hue_2       xxx cleared
+cv_hue_3       xxx cleared
+cv_hue_4       xxx cleared
+cv_hue_5       xxx cleared
+cv_hue_6       xxx cleared
+cv_hue_7       xxx cleared
+cv_hue_8       xxx cleared
+cv_hue_9       xxx cleared
+cv_hue_10      xxx cleared
+cv_hue_11      xxx cleared
+cv_hue_12      xxx cleared
+cv_hue_13      xxx cleared
+cv_hue_14      xxx cleared
+cv_hue_15      xxx cleared
+cv_hue_16      xxx cleared
+cv_hue_17      xxx cleared
+cv_hue_18      xxx cleared
+cv_hue_19      xxx cleared
+cv_pal_0_0     xxx cleared
+cv_pal_0_1     xxx cleared
+cv_pal_0_2     xxx cleared
+cv_pal_0_3     xxx cleared
+cv_pal_0_4     xxx cleared
+cv_pal_0_5     xxx cleared
+cv_pal_0_6     xxx cleared
+cv_pal_0_7     xxx cleared
+cv_pal_0_8     xxx cleared
+cv_pal_0_9     xxx cleared
+cv_pal_0_10    xxx cleared
+cv_pal_0_11    xxx cleared
+cv_pal_0_12    xxx cleared
+cv_pal_0_13    xxx cleared
+cv_pal_0_14    xxx cleared
+cv_pal_0_15    xxx cleared
+cv_pal_0_16    xxx cleared
+cv_pal_0_17    xxx cleared
+cv_pal_0_18    xxx cleared
+cv_pal_0_19    xxx cleared
+cv_pal_1_0     xxx cleared
+cv_pal_1_1     xxx cleared
+cv_pal_1_2     xxx cleared
+cv_pal_1_3     xxx cleared
+cv_pal_1_4     xxx cleared
+cv_pal_1_5     xxx cleared
+cv_pal_1_6     xxx cleared
+cv_pal_1_7     xxx cleared
+cv_pal_1_8     xxx cleared
+cv_pal_1_9     xxx cleared
+cv_pal_1_10    xxx cleared
+cv_pal_1_11    xxx cleared
+cv_pal_1_12    xxx cleared
+cv_pal_1_13    xxx cleared
+cv_pal_1_14    xxx cleared
+cv_pal_1_15    xxx cleared
+cv_pal_1_16    xxx cleared
+cv_pal_1_17    xxx cleared
+cv_pal_1_18    xxx cleared
+cv_pal_1_19    xxx cleared
+cv_pal_2_0     xxx cleared
+cv_pal_2_1     xxx cleared
+cv_pal_2_2     xxx cleared
+cv_pal_2_3     xxx cleared
+cv_pal_2_4     xxx cleared
+cv_pal_2_5     xxx cleared
+cv_pal_2_6     xxx cleared
+cv_pal_2_7     xxx cleared
+cv_pal_2_8     xxx cleared
+cv_pal_2_9     xxx cleared
+cv_pal_2_10    xxx cleared
+cv_pal_2_11    xxx cleared
+cv_pal_2_12    xxx cleared
+cv_pal_2_13    xxx cleared
+cv_pal_2_14    xxx cleared
+cv_pal_2_15    xxx cleared
+cv_pal_2_16    xxx cleared
+cv_pal_2_17    xxx cleared
+cv_pal_2_18    xxx cleared
+cv_pal_2_19    xxx cleared
+cv_pal_3_0     xxx cleared
+cv_pal_3_1     xxx cleared
+cv_pal_3_2     xxx cleared
+cv_pal_3_3     xxx cleared
+cv_pal_3_4     xxx cleared
+cv_pal_3_5     xxx cleared
+cv_pal_3_6     xxx cleared
+cv_pal_3_7     xxx cleared
+cv_pal_3_8     xxx cleared
+cv_pal_3_9     xxx cleared
+cv_pal_3_10    xxx cleared
+cv_pal_3_11    xxx cleared
+cv_pal_3_12    xxx cleared
+cv_pal_3_13    xxx cleared
+cv_pal_3_14    xxx cleared
+cv_pal_3_15    xxx cleared
+cv_pal_3_16    xxx cleared
+cv_pal_3_17    xxx cleared
+cv_pal_3_18    xxx cleared
+cv_pal_3_19    xxx cleared
+cv_pal_4_0     xxx cleared
+cv_pal_4_1     xxx cleared
+cv_pal_4_2     xxx cleared
+cv_pal_4_3     xxx cleared
+cv_pal_4_4     xxx cleared
+cv_pal_4_5     xxx cleared
+cv_pal_4_6     xxx cleared
+cv_pal_4_7     xxx cleared
+cv_pal_4_8     xxx cleared
+cv_pal_4_9     xxx cleared
+cv_pal_4_10    xxx cleared
+cv_pal_4_11    xxx cleared
+cv_pal_4_12    xxx cleared
+cv_pal_4_13    xxx cleared
+cv_pal_4_14    xxx cleared
+cv_pal_4_15    xxx cleared
+cv_pal_4_16    xxx cleared
+cv_pal_4_17    xxx cleared
+cv_pal_4_18    xxx cleared
+cv_pal_4_19    xxx cleared
+cv_star        xxx cleared
+cv_tip         xxx links to Comment
+cv_stip        xxx links to SpecialComment
+cv_stat        xxx links to Keyword
+cv_xstat       xxx links to Keyword
+cv_rct_45_2_5_4 xxx cleared
+cv_rct_50_2_5_4 xxx cleared
+cv_rct_55_2_5_4 xxx cleared
+airline_tab_to_airline_tabfill xxx ctermfg=238 ctermbg=234
+airline_c_to_airline_x_inactive_inactive xxx ctermfg=236 ctermbg=236
+airline_c_to_airline_x_inactive_inactive_bold xxx cterm=bold ctermfg=236 ctermbg=236 gui=bold
+airline_c_to_airline_x_inactive_inactive_red xxx ctermfg=160 ctermbg=236 guifg=#ff0000
+airline_x_to_airline_y_inactive xxx ctermfg=235 ctermbg=236
+airline_c1_to_airline_x_inactive xxx ctermfg=236 ctermbg=236
+airline_z_to_airline_warning_inactive xxx ctermfg=166 ctermbg=234
+airline_tabfill_to_airline_tabfill_inactive xxx ctermfg=1 ctermbg=1
+airline_a_to_airline_b_inactive xxx ctermfg=234 ctermbg=235
+airline_tabsel_to_airline_tabfill_inactive xxx ctermfg=1 ctermbg=1
+airline_tab_to_airline_tabfill_inactive xxx ctermfg=1 ctermbg=1
+airline_tabfill_to_airline_tabtype_inactive xxx ctermfg=1 ctermbg=1
+airline_y_to_airline_z_inactive xxx ctermfg=234 ctermbg=235
+airline_b_to_airline_c_inactive xxx ctermfg=235 ctermbg=236
+airline_c2_inactive xxx ctermfg=239 ctermbg=236 guifg=#4e4e4e guibg=#303030
+airline_tabmod_to_airline_tabfill xxx ctermfg=45 ctermbg=234
+airline_x_to_airline_y_bold xxx cterm=bold ctermfg=238 ctermbg=234 gui=bold
+airline_x_to_airline_y_red xxx ctermfg=160 ctermbg=234 guifg=#ff0000
+airline_tabsel_to_airline_tabfill_bold xxx cterm=bold ctermfg=190 ctermbg=234 gui=bold
+airline_tabsel_to_airline_tabfill_red xxx ctermfg=160 ctermbg=234 guifg=#ff0000
+airline_tabfill_to_airline_tabtype_bold xxx cterm=bold ctermfg=214 ctermbg=234 gui=bold
+airline_tabfill_to_airline_tabtype_red xxx ctermfg=160 ctermbg=234 guifg=#ff0000
+airline_a_to_airline_b_bold xxx cterm=bold ctermfg=190 ctermbg=238 gui=bold
+airline_a_to_airline_b_red xxx ctermfg=160 ctermbg=238 guifg=#ff0000
+airline_tabfill_to_airline_tabfill_bold xxx cterm=bold ctermfg=234 ctermbg=234 gui=bold
+airline_tabfill_to_airline_tabfill_red xxx ctermfg=160 ctermbg=234 guifg=#ff0000
+airline_b_to_airline_c_bold xxx cterm=bold ctermfg=238 ctermbg=234 gui=bold
+airline_b_to_airline_c_red xxx ctermfg=160 ctermbg=234 guifg=#ff0000
+airline_tab_to_airline_tabfill_bold xxx cterm=bold ctermfg=238 ctermbg=234 gui=bold
+airline_tab_to_airline_tabfill_red xxx ctermfg=160 ctermbg=234 guifg=#ff0000
+airline_c1_to_airline_x_bold xxx cterm=bold ctermfg=234 ctermbg=1 gui=bold
+airline_c1_to_airline_x_red xxx ctermfg=160 ctermbg=1 guifg=#ff0000
+airline_y_to_airline_z_bold xxx cterm=bold ctermfg=190 ctermbg=238 gui=bold
+airline_y_to_airline_z_red xxx ctermfg=160 ctermbg=238 guifg=#ff0000
+airline_z_to_airline_warning_bold xxx cterm=bold ctermfg=166 ctermbg=190 gui=bold
+airline_z_to_airline_warning_red xxx ctermfg=160 ctermbg=190 guifg=#ff0000
+airline_tabmod_to_airline_tabfill_bold xxx cterm=bold ctermfg=45 ctermbg=234 gui=bold
+airline_tabmod_to_airline_tabfill_red xxx ctermfg=160 ctermbg=234 guifg=#ff0000
+multiple_cursors_cursor xxx cterm=reverse gui=reverse
+multiple_cursors_visual xxx links to Visual
