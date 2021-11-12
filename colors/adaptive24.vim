@@ -8,14 +8,17 @@ syntax reset
 set t_Co=256
 let g:colors_name = "adaptive24"
 
-let s:black = "#212121" "black
-let s:red = "#d32f2f" "red
-let s:green = "#ffffff" "green
-let s:yellow = "#ffffff" "yellow
-let s:blue = "#455a64" "blue
-let s:magenta = "#e57373" "magenta
+let s:black = "#222222" "black
+let s:red = "#ff6b6b" "red
+let s:green = "#aabfa7" "green
+let s:yellow = "#d9d997" "yellow
+let s:blue = "#26617f" "blue
+let s:magenta = "#d5acac" "magenta
 let s:cyan = "#718792" "cyan
-let s:white = "#ffffff" "white
+let s:white = "#ebebeb" "white
+let s:grey = "#505254" "white
+
+let s:test = "#e06b6b" "white
 
 exe 'hi NonText guibg='s:black' guifg='s:white
 exe 'hi Normal guibg='s:black
@@ -30,12 +33,15 @@ exe 'hi Pmenu       guibg='s:blue' guifg='s:white
 exe 'hi PmenuSel    guibg='s:white' guifg='s:blue
 exe 'hi PmenuSbar   guibg='s:red
 exe 'hi PmenuThumb  guibg='s:red
-exe 'hi Comment guifg='s:blue' guibg='s:black
+exe 'hi Comment guifg='s:grey' guibg='s:black
 exe 'hi Folded     guifg='s:magenta' guibg='s:black
 exe 'hi FoldColumn guifg='s:magenta' guibg='s:black
 exe 'hi VertSplit guibg='s:magenta' guifg='s:black
 exe 'hi Visual guibg='s:blue
 exe 'hi MatchParen guibg='s:black' guifg='s:magenta
+
+exe 'hi Special guifg='s:blue
+
 "exe 'hi Search   gui=underline'
 "exe 'hi IncSearch guifg='s:bg' guibg='s:keyword
 exe 'hi Directory guifg='s:white
@@ -43,15 +49,24 @@ exe 'hi Folded guifg='s:white' guibg='s:black
 exe 'hi WildMenu guifg='s:white' guibg='s:black
 
 " Define reusable colorvariables.
-exe 'hi String guifg='s:white
+exe 'hi String guifg='s:yellow
 exe 'hi Boolean guifg='s:magenta' gui=bold'
-exe 'hi Type guifg='s:magenta
-exe 'hi Function guifg='s:white' gui=bold'
+exe 'hi Type guifg='s:cyan
+exe 'hi Function guifg='s:red' gui=bold'
 exe 'hi SignColumn guifg='s:white' guibg='s:black
 exe 'hi Statement guifg='s:cyan
 exe 'hi Keyword guifg='s:red' gui=bold'
 exe 'hi SpecialKey guifg='s:red' gui=bold'
-exe 'hi Identifier guifg='s:magenta' gui=bold guibg='s:black
+exe 'hi Identifier guifg='s:red' gui=bold guibg='s:black
+
+
+
+exe 'hi jsxCloseString guifg='s:blue
+
+exe 'hi phpDefine guifg='s:red
+exe 'hi phpDocTags guifg='s:blue
+
+
 "exe 'hi Character guifg='s:const
 "exe 'hi Conditional guifg='s:keyword
 "exe 'hi Constant guifg='s:const
