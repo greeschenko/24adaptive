@@ -18,7 +18,7 @@ let s:cyan = "#718792" "cyan
 let s:white = "#ebebeb" "white
 let s:grey = "#505254" "white
 
-let s:test = "#e06b6b" "white
+let s:test = "#fa4372" "white
 
 exe 'hi NonText guibg='s:black' guifg='s:white
 exe 'hi Normal guibg='s:black
@@ -65,7 +65,6 @@ exe 'hi jsxCloseString guifg='s:blue
 
 exe 'hi phpDefine guifg='s:red
 exe 'hi phpDocTags guifg='s:blue
-
 
 "exe 'hi Character guifg='s:const
 "exe 'hi Conditional guifg='s:keyword
