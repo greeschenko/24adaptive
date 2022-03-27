@@ -29,8 +29,8 @@ exe 'hi CursorLineNr guibg='s:black' guifg='s:white
 exe 'hi CursorColumn guibg='s:black
 exe 'hi CursorLine guibg='s:blue
 exe 'hi ColorColumn guibg='s:black
-exe 'hi Pmenu       guibg='s:blue' guifg='s:white
-exe 'hi PmenuSel    guibg='s:white' guifg='s:blue
+exe 'hi Pmenu       guibg='s:black' guifg='s:white
+exe 'hi PmenuSel    guibg='s:red' guifg='s:white
 exe 'hi PmenuSbar   guibg='s:red
 exe 'hi PmenuThumb  guibg='s:red
 exe 'hi Comment guifg='s:grey' guibg='s:black
@@ -65,6 +65,9 @@ exe 'hi jsxCloseString guifg='s:blue
 
 exe 'hi phpDefine guifg='s:red
 exe 'hi phpDocTags guifg='s:blue
+
+exec 'hi CocFadeOut guibg='s:black
+exec 'hi CocErrorSign guifg='s:red
 
 "exe 'hi Character guifg='s:const
 "exe 'hi Conditional guifg='s:keyword
