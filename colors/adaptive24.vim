@@ -74,11 +74,11 @@ exe 'hi CocMenuSel cterm=none gui=none guibg='s:darkgreen' guifg='s:cyan
 exe 'hi StatusLine cterm=none gui=none guibg='s:darkgreen' guifg='s:cyan
 exe 'hi StatusLineNC cterm=none gui=none guibg='s:darkgreen' guifg='s:cyan
 
-exe 'hi CmpItemMenuDefault       guibg='s:black' guifg='s:white
-exe 'hi CmpItemAbbrDefault    guibg='s:red' guifg='s:white
-exe 'hi CmpItemAbbrMatchDefault   guifg='s:cyan
-exe 'hi CmpItemAbbrMatchFuzzyDefault  guifg='s:cyan
-exe 'hi CmpItemKindDefault  guifg='s:red
+exe 'hi! CmpItemMenuDefault       guibg='s:black' guifg='s:white
+exe 'hi! CmpItemAbbrDefault    guibg='s:red' guifg='s:white
+exe 'hi! CmpItemAbbrMatchDefault   guifg='s:cyan
+exe 'hi! CmpItemAbbrMatchFuzzyDefault  guifg='s:cyan
+exe 'hi! CmpItemKindDefault  guifg='s:red
 
 "exe 'hi Character guifg='s:const
 "exe 'hi Conditional guifg='s:keyword
